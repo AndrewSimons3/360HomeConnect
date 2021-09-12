@@ -1,52 +1,60 @@
-/*
---- 01 TYPOGRAPHY SYSTEM
 
-- FONT SIZE SYSTEM (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
-- Font Weights:
-Default: 400
-Medium: 500
-Semi-bold: 600
-Bold:700
 
-- Line Heights:
-Default: 1
-Small: 1.05
-Medium: 1.2
-Paragraph default: 1.6
+/****************/
+/* HEADER SECTION */
+/****************/
 
---- 02 COLORS
+.logo {
+  height: 2.2rem;
+}
 
-PRIMARY: #1971c2
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
 
-- Tints: 
-- Shades: 
-- Accents:
-- Greys
+  /* Because we want header to be sticky later*/
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
 
-#888
-#767676 (lightest grey allowed on #fff)
-#6f6f6f (lightest grey allowed)
-#555;
-#333;
+/****************/
+/* NAVIGATION */
+/****************/
 
---- 05 SHADOWS
-0 2.4rem 4.8rem rgba(0, 0, 0, 0.075
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+}
 
---- 06 BORDER RADIUS
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
 
-Default: 9px
-Medium: 11px
---- 07 WHITESPACE
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #1971c2;
+}
 
-- SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
 
-*/
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
 }
