@@ -189,7 +189,6 @@
 
 .section-connect{
   padding: 9.6rem 0;
-  background-color: #e7f5ff;
 }
 
 .form-box {
@@ -244,6 +243,38 @@
   justify-content: center;
   margin-top: 3.2rem;
 }
+
+/****************/
+/* WHAT WE OFFER SECTION*/
+/****************/
+
+.section-offer{
+  padding: 9.6rem 0;
+  background-color: #e7f5ff;
+}
+
+.feature-icon {
+  color: #1971c2;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #e7f5ff;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
 
 /****************/
 /* Footer SECTION*/
