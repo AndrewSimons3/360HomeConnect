@@ -85,7 +85,8 @@
 
 .hero-img {
   width: 100%;
-  height: 750px;
+  height: 650px;
+  border-radius: 11px;
 }
 
 .connected-clients {
@@ -193,13 +194,13 @@
 
 .form-box {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
   background-image: linear-gradient(to right bottom, #74c0fc, #4dabf7);
   overflow: hidden;
-  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  padding: 4.8rem 6.4rem 4.8rem 6.4rem;
 }
 
 .cta-form {
@@ -236,6 +237,12 @@
 .cta *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+.btn-form-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.2rem;
 }
 
 /****************/
